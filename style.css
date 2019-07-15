@@ -21,8 +21,17 @@ div {
   background-color: blue;
 }
 
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
 .invisible {
   display: none;
+
 }
 
 .visible {
