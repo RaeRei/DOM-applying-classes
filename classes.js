@@ -12,30 +12,48 @@ function start () {
 
 function one () {
   // First, we have to find the element:
-  var one = document.getElementById('one')
+  var one = document.getElementById("one");
 
   // Next, we apply a new CSS class to it:
-  one.classList.add('blue')
+  one.classList.add("blue");
 }
 
 // CREATE FUNCTION two HERE
 
+function start () {
+  two()
+}
+
 function two () {
-  var two = document.getElementById('two')
-  two.classList.add('green')
+  var two = document.getElementById("two")
+  two.classList.add("green");
 }
 
 // CREATE FUNCTION three HERE
-
+function start () {
+  three()
+}
 function three () {
-  var three = document.getElementById('three')
-  three.classList.add('black')
+  var three = document.getElementById("three")
+  three.classList.add("black");
 
 
 // CREATE FUNCTION makeVisible HERE
-function makeVisible() {
-  var makeVisible = document.getElementsByClassName("invisible")[0]
-  invisible.classList(visible)
-  console.log(visible)
-  
+function makeVisible () {
+   invisible()
 }
+function invisible () {
+  var invisible = document.getElementsByClassName("[0]")
+  invisible.classList.add("[0]")
+
+}
+function makeVisible () {
+  visible()
+}
+function visible() {
+  var visible = document.getElementsByClassName("visible")
+  visible.classList.add("visible")
+
+}
+
+to complete Wednesday. 
