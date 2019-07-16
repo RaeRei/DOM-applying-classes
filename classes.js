@@ -20,9 +20,6 @@ function one () {
 
 // CREATE FUNCTION two HERE
 
-function start () {
-  two()
-}
 
 function two () {
   var two = document.getElementById("two")
@@ -30,9 +27,6 @@ function two () {
 }
 
 // CREATE FUNCTION three HERE
-function start () {
-  three()
-}
 function three () {
   var three = document.getElementById("three")
   three.classList.add("black");
